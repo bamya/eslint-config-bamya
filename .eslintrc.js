@@ -20,6 +20,9 @@ module.exports = {
     "jest": true
   },
   "rules": {
+    "react/prop-types": 0,
+    "react/jsx-props-no-spreading": 0,
+    "import/no-extraneous-dependencies": 0,
     "no-debugger": 0,
     "no-alert": 0,
     "no-await-in-loop": 0,
